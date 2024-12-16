@@ -1,1 +1,2 @@
 This is the final version of the working ASL Translator model. This file includes all the required files to train and run it along with some additional scripts that can help with troubleshooting issues in setting up the environment.
+The intel realsense python wrapper provided here is for python 3.12.3 so be careful when using it you may need to create your own wrapper from source for your version of python.
