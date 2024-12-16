@@ -34,8 +34,8 @@ config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 30)
 config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 30)
 
 # Depth filtering thresholds (meters)
-min_depth = 0.3
-max_depth = 1.5
+min_depth = 0.2
+max_depth = 1.2
 
 # Gesture tracking variables
 gesture_start_time = None
