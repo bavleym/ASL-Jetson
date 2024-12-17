@@ -15,7 +15,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Using {'GPU: ' + torch.cuda.get_device_name(0) if device == 'cuda' else 'CPU'}")
 
 # Load YOLO model
-model_path = r"C:\Users\Gaiaf\OneDrive - csulb\Documents\CECS 490 B\best.onnx"
+model_path = r"best.onnx"
 model = YOLO(model_path)  # Load ONNX model
 
 # Define label mapping (A-Z)
