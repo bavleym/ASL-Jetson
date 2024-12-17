@@ -20,7 +20,7 @@ model.fc = nn.Sequential(
 )
 
 # Load the saved model weights
-model_path = "C:/Users/Bavley/OneDrive - CSULB/Documents/CECS 490 B/Code/fivek_resnet18_finetuned_model.pth"
+model_path = "fivek_resnet18_finetuned_model.pth"
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.load_state_dict(torch.load(model_path, map_location=device))
 
