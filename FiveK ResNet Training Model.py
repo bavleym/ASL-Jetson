@@ -170,6 +170,6 @@ for epoch in range(1, 51):
             print("Early stopping triggered!")
             break
 
-save_path = "C:/Users/Gaiaf/OneDrive - CSULB/Documents/CECS 490 B/Code/fivek_resnet18_finetuned_model.pth"
+save_path = "fivek_resnet18_finetuned_model.pth"
 torch.save(model.state_dict(), save_path)
 print(f"Final model saved to {save_path}")
